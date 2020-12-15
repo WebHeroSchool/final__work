@@ -3,8 +3,8 @@ body {
   width: 100%;
   overflow: hidden;
   margin: 0;
-  font-family: 'MuseoModerno', serif;
-  font-size: 22px;
+  font-family: 'Museo_Sans_Cyrl', serif;
+  font-size: 23px;
   color: #fff;
   background: url("img/img1.jpg") no-repeat;
   background-size: cover;
@@ -40,7 +40,7 @@ label {
   justify-content: space-between;
   align-items: center;
   padding: 82px 115px;
-  margin-bottom: 43px;
+  margin-bottom: 50px;
 }
 
 .header__logo {
@@ -53,7 +53,7 @@ label {
 }
 
 .nav__link {
-  margin-left: 36px;
+  margin-left: 40px;
   color: #f8eee4;
   text-decoration: none;
 }
@@ -71,14 +71,15 @@ label {
 .main__inner {
   max-width: 555px;
   line-height: 1.3;
-  margin-left: 195px;
+  margin-left: 205px;
   position: relative;
 }
 
 .main__title {
-  font-family: 'PT Serif', serif;
+  font-family: 'Pt_serif', serif;
   font-size: 280px;
   font-weight: 700;
+  letter-spacing: 10px;
   line-height: 1.3;
   opacity: 0.4;
   margin: 0;
@@ -86,9 +87,10 @@ label {
 
 .main__subtitle {
   margin: 0;
-  font-family: 'PT Serif', serif;
+  font-family: 'Pt_serif', serif;
   font-size: 98px;
   font-weight: 700;
+  letter-spacing: 3px;
   position: absolute;
   top: 41%;
   left: 15%;
@@ -97,20 +99,20 @@ label {
 .main__text {
   max-width: 578px;
   line-height: 1.2;
-  margin: 15px 0 36px 23px;
+  margin: 8px 0 35px 23px;
 }
 
 .main__photo {
-  width: 45%;
+  width: 46%;
   display: flex;
   align-items: center;
   border-radius: 5px;
-  padding-top: 80px;
+  padding-top: 87px;
   overflow: hidden;
 }
 
 .main__photo__link {
-  margin-left: 34px;
+  margin-left: 37px;
 }
 
 .main__photo__link:first-child {
@@ -120,14 +122,14 @@ label {
 .main__btn {
   display: inline-block;
   height: 62px;
-  padding-left: 87px;
-  padding-right: 87px;
+  padding-left: 88px;
+  padding-right: 88px;
   border-radius: 48px;
   background-color: #d4bea3;
   text-decoration: none;
   color: #fff;
   line-height: 62px;
-  margin-left: 24px;
+  margin-left: 21px;
  }
 
 @media (max-width: 1500px) {
@@ -176,7 +178,7 @@ label {
 
 @media (max-width: 1366px) {
   body {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .container {
@@ -184,13 +186,13 @@ label {
   }
 
   .header__inner {
-    padding: 50px 94px 89px 117px;
+    padding: 54px 83px 92px 117px;
     margin: 0;
   }
 
   .header__logo {
-    margin-left: 28px;
-    padding-top: 14px;
+    margin-left: 26px;
+    padding-top: 11px;
   }
 
   .header__logo-img {
@@ -198,11 +200,11 @@ label {
   }
 
   .nav__link {
-    margin-left: 25px;
+    margin-left: 30px;
   }
 
   .main__inner {
-    max-width: 407px;
+    max-width: 430px;
     margin-left: 145px;
   }
 
@@ -211,22 +213,25 @@ label {
   }
 
   .main__subtitle {
-    font-size: 70px;
+    font-size: 68px;
     top: 41%;
     left: 14%;
   }
 
   .main__text {
     max-width: 420px;
-    margin: 10px 0 24px 12px;
-  }
-
+    padding-top: 7px;
+    padding-left: 14px;
+    padding-bottom: 24px;
+    margin: 0;
+}
+  
   .main__btn {
     height: 44px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 64px;
+    padding-right: 64px;
     line-height: 44px;
-    margin-left: 18px;
+    margin-left: 15px;
   }
 
   .main__photo {
@@ -249,13 +254,13 @@ label {
   }
 
   .header__logo {
-      margin-left: 29px;
-      padding-top: 18px;
+      margin-left: 28px;
+      padding-top: 19px;
   }
 
   .header__inner {
     padding: 0;
-    margin: 46px 0 94px 14px;
+    margin: 45px 0 94px 14px;
   }
 
   .nav {
@@ -264,22 +269,24 @@ label {
   }
 
   .nav__link {
-      margin-left: 27px;
+    margin-left: 29px;
   }
 
   .main__inner {
     margin-left: 41px;
   }
 
- .main__text {
-   margin-top: 6px;
-   margin-bottom: 24px;
- }
+  .main__subtitle {
+    top: 42%;
+    left: 15%;
+  }
+  .main__text {
+      margin: 0;
+  }
 
- .main__btn {
-     padding-left: 62px;
-     padding-right: 62px;
- }
+  .main__btn {
+      margin-left: 19px;
+  }
 
   .main__photo {
     width: 50%;
@@ -288,7 +295,7 @@ label {
 
   .main__photo__link:first-child {
     margin: 0;
-    width: 43%;
+    width: 44%;
   }
 
   .main__photo__link {
@@ -307,6 +314,10 @@ label {
 
   .main__subtitle {
     font-size: 75px;
+  }
+
+  .main__text {
+    padding: 0;
   }
 
   .main__photo {
@@ -464,16 +475,6 @@ label {
   }
 }
 
-/* @media (max-width: 575px) {
-  .container {
-    max-width: 575px;
-  }
-
- .header__inner {
-    margin: 20px 0 60px 0px;
-  }
-} */
-
 @media (max-width: 490px) {
   .main__title {
     font-size: 213px;
@@ -481,6 +482,7 @@ label {
 
   .main__title {
     font-size: 170px;
+
   }
 
   .main__subtitle {
@@ -511,7 +513,7 @@ label {
 
   .header__inner {
     padding: 0;
-    margin: 20px 0 50px 31px;
+    margin: 20px 0 55px 31px;
   }
 
   .header__logo {
@@ -524,15 +526,20 @@ label {
     margin-top: 23px;
   }
 
+  .main__title {
+    letter-spacing: 11px;
+  }
+
   .main__subtitle {
     top: 34%;
-    left: 17%;
+    left: 21%;
+    letter-spacing: 2px;
   }
 
   .main__text {
-    font-size: 17px;
-    width: 293px;
-    margin: 49px 27px 40px 27px;
+    font-size: 19px;
+    width: 294px;
+
   }
 
   .main__btn {
